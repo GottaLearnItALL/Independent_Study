@@ -11,9 +11,9 @@ from visualizations import (
 # RUN ALL DATASETS
 # ============================================
 
-RUN_MNIST = False        # skip — already have results
-RUN_CIFAR = False         # this is the important one
-RUN_EMNIST = False
+RUN_MNIST = False        # skip
+RUN_CIFAR = False         # run this
+RUN_EMNIST = True        # run this
 RUN_TRANSFER = True      # professor's experiment
 
 if RUN_MNIST:

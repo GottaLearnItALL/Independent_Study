@@ -61,9 +61,9 @@ def load_dataset(dataset_name, for_resnet=False):
                               download=True, transform=transform)
                     
     elif dataset_name == "emnist":
-        train = datasets.EMNIST(root='./data', train=True,
+        train = datasets.EMNIST(root='./data', split='letters', train=True,
                                download=True, transform=transform)
-        test = datasets.EMNIST(root='./data', train=False,
+        test = datasets.EMNIST(root='./data', split='letters', train=False,
                               download=True, transform=transform)
     
     else:
