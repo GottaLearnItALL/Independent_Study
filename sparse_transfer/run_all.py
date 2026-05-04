@@ -12,9 +12,9 @@ from visualizations import (
 # ============================================
 
 RUN_MNIST = False        # skip
-RUN_CIFAR = False         # run this
+RUN_CIFAR = True         # run this
 RUN_EMNIST = True        # run this
-RUN_TRANSFER = True      # professor's experiment
+RUN_TRANSFER = False      # professor's experiment
 
 if RUN_MNIST:
     mnist_results = run_experiment('mnist')
